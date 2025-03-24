@@ -6,7 +6,7 @@ order: 4
 
 ![wtf2](https://i.ibb.co/Ps9t8Ycs/Design-ohne-Titel.jpg)
 
-# 📞💀 <span style="color: green;">Wazzup!</span>
+# 📞💀 <span style="color: green;">Wazzzup!</span>
 
 ## I'm Toxic, but you can call me Loxic too. Im an Cybersecurity Enthusiast, and I will public my blogs about cybersecurity and CTFs here.
 
