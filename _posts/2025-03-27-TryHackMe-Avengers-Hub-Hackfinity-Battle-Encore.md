@@ -1,6 +1,6 @@
 ---
 title: "TryHackme - Avengers Hub (Hackfinity Battle Encore)"
-date: 2025-03-29 00:00:00 +0800
+date: 2025-03-28 00:00:00 +0800
 categories: [TryHackMe]
 tags: [Hacking, CTF, Pentesting, TryHackMe, THM, Hard, Web, Zip, john, ffuf, Kernel, Linux, sudo, CMS]
 author: 0xT0xic
