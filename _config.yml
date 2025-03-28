@@ -19,7 +19,7 @@ title: Toxic # the main title
 tagline: Are you gonna leave or save the Society? # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Its just Toxic's Blog posts, which are about THM (TryHackMe), HTB (HackTheBox) and anything Hacking/Cybersecurity related.
+  Toxic's Blog posts, which are about THM (TryHackMe), HTB (HackTheBox) and anything Hacking/Cybersecurity related.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
