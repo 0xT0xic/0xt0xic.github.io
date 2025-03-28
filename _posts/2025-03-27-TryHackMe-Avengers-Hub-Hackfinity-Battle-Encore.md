@@ -44,6 +44,74 @@ We begin with a comprehensive network scan to understand the target's infrastruc
     </div>
 </div>
 
+<style>
+.terminal-container {
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.terminal-header {
+    background-color: #1c1c1c;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.terminal-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+}
+.terminal-dot.red { background-color: #ff3b30; }
+.terminal-dot.yellow { background-color: #ffcc00; }
+.terminal-dot.green { background-color: #4cd964; }
+.terminal-title {
+    color: #a0a0a0;
+    font-family: monospace;
+    font-weight: bold;
+}
+.terminal-body {
+    padding: 15px;
+    background-color: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+}
+.terminal-body pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.copy-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.copy-btn:hover {
+    color: #fff;
+}
+</style>
+
+<script>
+function copyToClipboard(btn) {
+    const code = btn.closest('.terminal-container').querySelector('code').textContent;
+    navigator.clipboard.writeText(code).then(() => {
+        btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+        setTimeout(() => {
+            btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+        }, 1500);
+    });
+}
+</script>
+
 Scan Results:
 
 - Port 22: SSH (OpenSSH 8.2p1 Ubuntu 4ubuntu0.12)
@@ -196,6 +264,74 @@ if name == "__main__":
     </div>
 </div>
 
+<style>
+.terminal-container {
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.terminal-header {
+    background-color: #1c1c1c;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.terminal-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+}
+.terminal-dot.red { background-color: #ff3b30; }
+.terminal-dot.yellow { background-color: #ffcc00; }
+.terminal-dot.green { background-color: #4cd964; }
+.terminal-title {
+    color: #a0a0a0;
+    font-family: monospace;
+    font-weight: bold;
+}
+.terminal-body {
+    padding: 15px;
+    background-color: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+}
+.terminal-body pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.copy-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.copy-btn:hover {
+    color: #fff;
+}
+</style>
+
+<script>
+function copyToClipboard(btn) {
+    const code = btn.closest('.terminal-container').querySelector('code').textContent;
+    navigator.clipboard.writeText(code).then(() => {
+        btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+        setTimeout(() => {
+            btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+        }, 1500);
+    });
+}
+</script>
+
 <img src="https://i.ibb.co/TqxycDxV/image.png" alt="Avengers Hub" width="650">
 
 ## User Shell
@@ -259,6 +395,74 @@ MODULE_DESCRIPTION("Reverse Shell Module");</code></pre>
     </div>
 </div>
 
+<style>
+.terminal-container {
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.terminal-header {
+    background-color: #1c1c1c;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.terminal-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+}
+.terminal-dot.red { background-color: #ff3b30; }
+.terminal-dot.yellow { background-color: #ffcc00; }
+.terminal-dot.green { background-color: #4cd964; }
+.terminal-title {
+    color: #a0a0a0;
+    font-family: monospace;
+    font-weight: bold;
+}
+.terminal-body {
+    padding: 15px;
+    background-color: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+}
+.terminal-body pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.copy-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.copy-btn:hover {
+    color: #fff;
+}
+</style>
+
+<script>
+function copyToClipboard(btn) {
+    const code = btn.closest('.terminal-container').querySelector('code').textContent;
+    navigator.clipboard.writeText(code).then(() => {
+        btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+        setTimeout(() => {
+            btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+        }, 1500);
+    });
+}
+</script>
+
 but compiling it wasn’t straightforward. Attempting to compile with gcc -c failed due to missing kernel headers and incorrect compilation flags. A Makefile had to be written to properly compile the module using the kernel build system:
 
 <div class="terminal-container">
@@ -287,6 +491,74 @@ clean:
 	$(MAKE) -C $(KDIR) M=$(PWD) clean</code></pre>
     </div>
 </div>
+
+<style>
+.terminal-container {
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.terminal-header {
+    background-color: #1c1c1c;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.terminal-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+}
+.terminal-dot.red { background-color: #ff3b30; }
+.terminal-dot.yellow { background-color: #ffcc00; }
+.terminal-dot.green { background-color: #4cd964; }
+.terminal-title {
+    color: #a0a0a0;
+    font-family: monospace;
+    font-weight: bold;
+}
+.terminal-body {
+    padding: 15px;
+    background-color: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+}
+.terminal-body pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.copy-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.copy-btn:hover {
+    color: #fff;
+}
+</style>
+
+<script>
+function copyToClipboard(btn) {
+    const code = btn.closest('.terminal-container').querySelector('code').textContent;
+    navigator.clipboard.writeText(code).then(() => {
+        btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+        setTimeout(() => {
+            btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+        }, 1500);
+    });
+}
+</script>
 
 Once compiled and loaded with `sudo insmod cyberavengers.ko`, root access was successfully obtained, granting full control over the system.
 
