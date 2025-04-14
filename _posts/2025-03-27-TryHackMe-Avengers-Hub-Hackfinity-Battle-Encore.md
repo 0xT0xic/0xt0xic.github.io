@@ -1,5 +1,5 @@
 ---
-title: "TryHackme - Avengers Hub (Hackfinity Battle Encore)"
+title: "TryHackMe - Avengers Hub (Hackfinity Battle Encore)"
 date: 2025-03-28 00:00:00 +0800
 categories: [TryHackMe]
 tags: [Hacking, CTF, Pentesting, TryHackMe, THM, Hard, Web, Zip, john, ffuf, Kernel, Linux, sudo, CMS]
@@ -114,8 +114,8 @@ function copyToClipboard(btn) {
 
 Scan Results:
 
-- Port 22: SSH (OpenSSH 8.2p1 Ubuntu 4ubuntu0.12)
-- Port 80: HTTP (Apache httpd 2.4.41 Ubuntu)
+- `Port 22: SSH (OpenSSH 8.2p1 Ubuntu 4ubuntu0.12)`
+- `Port 80: HTTP (Apache httpd 2.4.41 Ubuntu)`
 
 The initial scan reveals a minimal attack surface with two primary ports open. The web server's title indicates an "Under Construction" website, suggesting potential hidden functionality.
 
