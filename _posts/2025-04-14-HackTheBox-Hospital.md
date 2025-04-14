@@ -553,7 +553,7 @@ Once logged in, we see that user `drbrown is requesting an .eps file, which is s
 
 We find a relevant CVE, which we can exploit, after a quick research:
 
-- [CVE-2023-36664](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection/blob/main/CVE_2023_36664_exploit.py) What a coincidence lmao
+- [CVE-2023-36664](https://github.com/jakabakos/CVE-2023-36664-Ghostscript-command-injection/blob/main/CVE_2023_36664_exploit.py)
 
 <div class="terminal-container">
     <div class="terminal-header">
@@ -1204,4 +1204,4 @@ function copyToClipboard(btn) {
 }
 </script>
 
-Once inside, we grab the root.txt file from the desktop. Hospital has been hacked. Game over.
+After logging in as Administrator we can read the root flag and have achied full ownership of the machine.
