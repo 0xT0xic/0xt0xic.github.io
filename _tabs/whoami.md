@@ -8,7 +8,7 @@ order: 4
 
 # 📞💀 <span style="color: green;">Wazzzup!</span>
 
-## I'm Toxic, but you can call me Loxic too. Im an Cybersecurity Enthusiast, and I will public my blogs about cybersecurity and CTFs here.
+## I'm Toxic, but you can call me Loxic too. Im an Cybersecurity Enthusiast, and I will be publicing my blogs about cybersecurity and CTFs here.
 
 ## I mainly focus on web application hacking and binary exploitation. But I participate in any kind of CTFs on platforms like HTB and THM.
 

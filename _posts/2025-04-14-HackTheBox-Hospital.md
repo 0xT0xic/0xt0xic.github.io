@@ -2,7 +2,7 @@
 title: "HackTheBox - Hospital"
 date: 2025-04-14 00:00:00 +0800
 categories: [HackTheBox]
-tags: [Hacking, CTF, Pentesting, HackTheBox, HTB, Medium, Web, AD, Active Directory, Windows, Keylogger, Reverse Shell, Phishing, CVE, Realistic, php, bypass, hashcat, ffuf, Kernel, sudo, CMS]
+tags: [Hacking, CTF, Pentesting, HackTheBox, HTB, Medium, Web, AD, Active Directory, Windows, Keylogger, Reverse Shell, Phishing, CVE, Realistic, php, bypass, hashcat, ffuf, Kernel, sudo, CMS, Red]
 author: 0xT0xic
 image:
     path: https://pbs.twimg.com/media/F_D4Z-xXYAABRzU?format=jpg&name=medium
