@@ -28,7 +28,7 @@ By right-clicking on one of the TCP packets and selecting Follow TCP Stream, we 
 
 ## Recovering JPEG Files
 
-To extract the transmitted JPEG images from the capture, we use a digital forensics tool called foremost. This tool scans files and extracts content based on file headers.
+To extract the transmitted JPEG images from the capture, we use a digital forensics tool called [foremost](https://www.kali.org/tools/foremost/). This tool scans files and extracts content based on file headers.
 
 <div class="terminal-container">
     <div class="terminal-header">
