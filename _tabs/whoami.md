@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![wtf2](https://i.ibb.co/Ps9t8Ycs/Design-ohne-Titel.jpg)
+![wtf2](https://i.ibb.co/zH8TxRgY/kaicenat.png)
 
 # 📞💀 <span style="color: green;">Wazzzup!</span>
 
